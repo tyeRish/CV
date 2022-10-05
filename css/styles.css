@@ -1,18 +1,88 @@
-  body {
-    background-color: #00D7FF;
-  }
+ /***************Element***********/
+h1 {
+  color: #5800FF;
+  margin: 50px auto 0 auto;
+  font-family: "Kaushan Script", cursive;
+  font-size: 5.625rem;
+  /*  width: 25%;
+  border-radius: 50%;
+  box-shadow:0 10px 5px gray;*/
+}
 
-  hr {
-    color: #5800FF;
-    border-style: none none dotted none;
-    border-width: 5px;
-    width: 5%;
-  }
+h2 {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #0096FF;
+}
 
-  h1 {
-    color: #5800FF;
-  }
+h3 {
+  font-family: "Abyssinica SIL", serif;
+  color: #0096FF;
+}
 
-  h3 {
-    color: #5800FF;
-  }
+hr {
+  clear: both;
+}
+
+body {
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+  background: linear-gradient(#00D7FF 25%, #f4f3ef 75%);
+}
+
+/***************Class*************/
+.top {
+  padding-top: 100px;
+}
+
+.middle {}
+
+.bottom {
+  color: #5800FF;
+}
+
+.dev {
+  color: #5800FF;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-shadow: 1px 1px 2px;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+}
+
+.bot-cloud {
+  position: absolute;
+}
+
+.tmclogo {
+  width: 20%;
+  height: 20%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skillfsgif {
+  width: 25%;
+  float: left;
+  margin-right: 15px;
+}
+
+.skilltech {
+  width: 25%;
+  float: right;
+  margin-left: 15px;
+}
+
+/***************ID***************/
