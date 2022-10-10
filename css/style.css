@@ -209,3 +209,8 @@ nav {
   transform: rotate(45deg) translate(-5px,-6px);
 }
 
+/* stops the animation during resize re: js */
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
